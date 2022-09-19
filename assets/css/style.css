@@ -179,8 +179,10 @@ section {
 .apple_btn {
     margin: 0 30px;
 }
+
 /* #endregion section 1 */
 
+/* #region section 2 */
 .planning {
     background-color: var(--primary);
     color: var(--light);
@@ -212,4 +214,22 @@ section {
     padding: 20px;
     border-radius: 50%;
     color: black;
+}
+/* #endregion section 2 */
+
+.partners {
+    text-align: center;
+}
+
+.partners h1 {
+    margin: 20px 0;
+    color: var(--primary);
+}
+
+.partners img {
+    float: left;
+}
+
+.card {
+    background-color: var(--primary);
 }
