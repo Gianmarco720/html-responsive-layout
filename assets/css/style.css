@@ -347,6 +347,8 @@ section {
     font-weight: 400;
 }
 /* #endregion section 5 */
+
+/* #region section 6 */
 .call_to_action {
     background-color: var(--primary);
     text-align: center;
@@ -382,3 +384,4 @@ section {
     color: var(--light);
     text-decoration: underline;
 }
+/* #endregion section 6 */
