@@ -346,3 +346,39 @@ section {
     color: var(--light);
     font-weight: 400;
 }
+/* #endregion section 5 */
+.call_to_action {
+    background-color: var(--primary);
+    text-align: center;
+    color: var(--light);
+}
+
+.call_to_action h1 {
+    font-size: 45px;
+    margin: 30px 0;
+}
+
+#alert_title {
+    color: var(--alert);
+    font-size: 100px;
+}
+
+#cta_btn {
+    background-color: var(--light);
+    padding: 10px 50px;
+    border-radius: 2rem;
+}
+
+.get_started {
+    margin-top: 30px;
+    color: var(--primary);
+}
+
+.privacy {
+    margin-top: 30px;
+}
+
+.privacy a {
+    color: var(--light);
+    text-decoration: underline;
+}
