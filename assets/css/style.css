@@ -318,3 +318,31 @@ section {
 .about img {
     border-radius: 50%;
 }
+
+.quote_about {
+    font-size: 80px;
+    position: relative;
+    left: 170px;
+    bottom: 280px;
+    color: var(--primary);
+}
+
+.about_text {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--primary);
+    margin-left: 25px
+}
+
+.about_btn {
+    background-color: var(--primary);
+    text-align: center;
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 1rem;
+}
+
+.about_btn a {
+    color: var(--light);
+    font-weight: 400;
+}
