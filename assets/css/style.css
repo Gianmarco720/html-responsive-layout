@@ -211,7 +211,7 @@ section {
 .fa-arrow-down-long {
     margin-top: 30px;
     background-color: var(--primary);
-    padding: 20px;
+    padding: 20px 21px;
     border-radius: 50%;
     color: black;
 }
@@ -228,8 +228,29 @@ section {
 
 .partners img {
     float: left;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: auto;
+    padding: 1rem;
 }
 
 .card {
     background-color: var(--primary);
+    display: flex;
+    align-items: center;
+    border-radius: 1.5rem;
+    color: white;
+    margin: 30px 0;
 }
+
+.partners_info {
+    text-align: left;
+    margin-left: 50px;
+}
+
+.partners_info h4 {
+    margin-top: 20px;
+}
+/* #endregion section 2 */
