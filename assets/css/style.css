@@ -1,5 +1,111 @@
+/* #region common rules */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+:root {
+    --primary:  #9792E4;
+    --secondary: #0084FD;
+    --secondarylight: #B5DDFF;
+    --dark: #333333;
+    --alert: #FDC15F;
+    --light: #FFFFFF;
+}
+
+img {
+    max-width: 100%;
+}
+/* #endregion common rules */
+
+/* #region utility */
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.row {
+    display: flex;
+}
+
+.col_1 {
+    width: calc(100% / 12 * 1);
+}
+
+.col_2 {
+    width: calc(100% / 12 * 2);
+}
+
+.col_3 {
+    width: calc(100% / 12 * 3);
+}
+
+.col_4 {
+    width: calc(100% / 12 * 4);
+}
+
+.col_5 {
+    width: calc(100% / 12 * 5);
+}
+
+.col_6 {
+    width: calc(100% / 12 * 6);
+}
+
+.col_7 {
+    width: calc(100% / 12 * 7);
+}
+
+.col_8 {
+    width: calc(100% / 12 * 8);
+}
+
+.col_9 {
+    width: calc(100% / 12 * 9);
+}
+
+.col_10 {
+    width: calc(100% / 12 * 10);
+}
+
+.col_11 {
+    width: calc(100% / 12 * 11);
+}
+
+.col_12 {
+    width: calc(100% / 12 * 12);
+}
+/* #endregion utility */
+
+/* header */
+header {
+    background-color: var(--secondary);
+    font-size: 12px;
+}
+
+.navmenu {
+    justify-content: space-between;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--light);
+}
+
+.menu_right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.start_btn {
+    color: black;
+    padding: 5px;
+    border-radius: 1rem;
+    background-color: var(--light);
 }
