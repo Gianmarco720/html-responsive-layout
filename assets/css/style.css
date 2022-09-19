@@ -12,6 +12,7 @@
     --dark: #333333;
     --alert: #FDC15F;
     --light: #FFFFFF;
+    --text: #848484;
 }
 
 img {
@@ -217,6 +218,7 @@ section {
 }
 /* #endregion section 2 */
 
+/* #region section 3 */
 .partners {
     text-align: center;
 }
@@ -253,4 +255,42 @@ section {
 .partners_info h4 {
     margin-top: 20px;
 }
-/* #endregion section 2 */
+/* #endregion section 3 */
+
+/* #region section 4 */
+.benefits {
+    background-color: var(--primary);
+    text-align: center;
+    color: var(--light);
+}
+
+.benefit_card h1, h3 {
+    color: var(--primary);
+} 
+
+.benefit_card h1 {
+    font-size: 50px;
+}
+
+.benefit_card {
+    margin: 2rem 0;
+    background-color: var(--light);
+    color: var(--text);
+    border-radius: 1rem;
+}
+
+.benefit_link {
+    background-color: var(--primary);
+    color: var(--light);
+    border-radius: 1rem;
+    padding: 5px 30px;
+}
+
+.benefit_button {
+    margin: 30px 0;
+}
+
+.card_text {
+    text-align: left;
+    margin: 20px;
+}
