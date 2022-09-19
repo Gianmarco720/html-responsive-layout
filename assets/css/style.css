@@ -128,6 +128,10 @@ main a {
     text-decoration: none;
 }
 
+p {
+    line-height: 2;
+}
+
 /* #region section 1 */
 section {
     padding: 3rem 0;
@@ -155,7 +159,9 @@ section {
 
 .demo img {
     height: 400px;
+    position: relative;
     float: right;
+    top: 83px;
 }
 
 .demo p {
@@ -264,8 +270,10 @@ section {
     color: var(--light);
 }
 
-.benefit_card h1, h3 {
+.card_text h1,
+.card_text h3 {
     color: var(--primary);
+    margin: 1rem 0;
 } 
 
 .benefit_card h1 {
@@ -293,4 +301,20 @@ section {
 .card_text {
     text-align: left;
     margin: 20px;
+}
+/* #endregion section 4 */
+
+/* #region section 5 */
+.about h1 {
+    font-size: 43px;
+    color: var(--primary);
+    margin-bottom: 1rem;
+}
+
+.bottom_text {
+    margin: 3rem 0;
+}
+
+.about img {
+    border-radius: 50%;
 }
