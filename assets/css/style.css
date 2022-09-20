@@ -33,12 +33,16 @@ img {
 }
 
 body {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'PT Sans', sans-serif;
 }
 
 .row {
     display: flex;
     gap: 30px;
+}
+
+.d_flex {
+    display: flex;
 }
 
 .col_1 {
@@ -159,9 +163,8 @@ section {
 
 .demo img {
     height: 400px;
-    position: relative;
+    margin-top: 86px;
     float: right;
-    top: 83px;
 }
 
 .demo p {
@@ -355,9 +358,18 @@ section {
     color: var(--light);
 }
 
+.container_sm {
+    width: 40%;
+    margin: auto;
+}
+
 .call_to_action h1 {
-    font-size: 45px;
+    font-size: 44px;
     margin: 30px 0;
+}
+
+.call_to_action p {
+    font-size: 18px;
 }
 
 #alert_title {
@@ -369,6 +381,7 @@ section {
     background-color: var(--light);
     padding: 10px 50px;
     border-radius: 2rem;
+    color: var(--primary);
 }
 
 .get_started {
@@ -385,3 +398,24 @@ section {
     text-decoration: underline;
 }
 /* #endregion section 6 */
+
+/* #region footer */
+footer {
+    background-color: var(--dark);
+    padding: 3rem 0;
+    color: var(--light);
+    text-align: center;
+}
+
+footer p {
+    line-height: normal;
+    font-size: 14px;
+}
+
+footer a {
+    color: var(--primary);
+}
+
+.credits {
+    margin: 3rem 2rem 0;
+}
