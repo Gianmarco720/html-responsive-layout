@@ -269,6 +269,11 @@ section {
     color: var(--light);
 }
 
+.space {
+    display: flex;
+    justify-content: space-between;
+}
+
 .card_text h1,
 .card_text h3 {
     color: var(--primary);
@@ -420,7 +425,7 @@ footer a {
 /* #endregion main */
 
 /* #region responsive */
-@media screen and (min-width: 481px) {
+@media screen and (min-width: 320px) {
     .container {
         width: 100%;
     }
