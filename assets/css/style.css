@@ -435,4 +435,19 @@ footer a {
         margin-left: -40px;
         margin-top: 118px;
     }
+
+    .about_text {
+        margin-left: 0;
+    }
+
+    .quote_about {
+        left: 140px;
+        bottom: 230px;
+    }
+
+    .container_sm {
+        width: 43%;
+        margin: auto;
+    }
 }
+/* #endregion desktop */
